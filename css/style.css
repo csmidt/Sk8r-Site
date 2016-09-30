@@ -1,5 +1,288 @@
 html 
-	{box-sizing: border-box;}
+	{
+	box-sizing: border-box;
+	background-image:url(../assets/bg.jpg); 
+	background-size: cover;
+	
+}
 	*, *:after, *:before
 	{box-sizing: inherit;}
+
+
+header {
+	width:700px;
+	height: 100px;
+	position:relative;
+}
+
+#container {
+	width:720px;
+	margin:auto;
+	position:relative;
+}
+
+span {
+	color:#fff;
+	margin-left: 375px;
+}
+div.i {
+	font-size: 10px;
+}
+nav > ul {
+	display:flex;
+	justify-content:space-between;
+	padding-left:0;
+	list-style:none;
+}
+
+nav li {
+	height:30px;
+	width:24%;
+	background-color: #B4292E;
+	color: #fff;
+	border-bottom: 2px solid gray;
+	text-align: center;
+	padding-top: 5px;
+
+}
+
+header > ul {
+	position:absolute;
+	top: -33px;
+	right:0;
+	list-style:none;
+	padding-left:0;
+	display:flex;
+	font-size: 30px;
 	
+	
+}
+
+.social > li {
+	font-size:30px;
+	height:40px;
+	width:40px;
+	border: 2px solid #fff;
+	margin-right: 5px;
+	text-align: center;
+    line-height: 40px;
+}
+
+.facebook {
+	background:blue;
+}
+
+.twitter {
+	background:green;
+}
+.youtube {
+	background:red;
+}
+.rss {
+	background:orange;
+}
+
+.social > li i {
+	color:white;
+}
+
+
+
+#slideshow {
+	background-image: url(../assets/top-image.png);
+	background-position: -240px -160px;
+	border: 5px solid #fff;
+	width: 690px;
+	height:280px;
+	
+	margin-bottom: 10px;
+	padding-top: 50px;
+}
+
+
+#articles {
+	width:700px;
+	height:300px;
+	
+
+}
+
+.story {
+	float:left;
+	width:225px;
+	height:300px;
+	background-color: #fff;
+	margin-left:8px;
+	word-wrap: normal;
+	font-size: 14px;
+	padding-right: 7px;
+	padding-left: 7px;
+	padding-top: 5px;
+}
+
+#articles div:first-child {
+	margin-left: 5px;
+
+		
+
+}
+
+h5 {
+	color: #B5B5B5;
+}
+
+#skaters{
+  text-align:center;
+  width:700px;
+  margin-top: 20px;
+  overflow: auto;
+
+
+}
+
+.skater{
+  background:#000;
+  border:1px solid #fff;
+  color:#fff;
+  font-size: 20px;
+	font-weight: bold;
+  line-height:200px;
+  width:220px;
+  height:145px;
+  float:left;
+  margin: 5px;
+}
+
+#skaters div:first-child {
+  background-image: url(../assets/sk8er-4.png);
+  background-size: cover;
+  background-position: -40px 0px;
+  line-height: 120%;
+  padding-top: 50px;
+  font-size: 25px;
+
+
+}
+
+#skaters div:nth-child(2){
+  background-image: url(../assets/sk8er-3.png);
+  background-size: cover;
+  background-position: 0px 0px;
+  line-height: 30px;
+  padding-top: 50px;
+  font-size: 25px;
+
+}
+
+
+.skater:nth-child(3) {
+  background-image: url(../assets/sk8er-1.png);
+  background-size: cover;
+  background-position: 0px -0px;
+  clear:left;
+  width:460px;
+  margin-right:5px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.skater:nth-child(4) {
+  background-image: url(../assets/sk8er-2.png);
+  background-size: cover;
+  background-position: -270px 0px;
+  height:310px;
+  margin-top:-155px;
+  margin-left: 5px;
+  line-height: 25px;
+  padding-top: 125px;
+  font-size: 25px;
+  font-weight:bold;
+}
+
+#triangle_right {
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 40px solid #B4292E;
+    border-bottom: 40px solid transparent;
+    position: absolute;
+    margin-left: -90px;
+    right:-40px;
+	top:0;
+}
+#rectangle {
+    width: 180px;
+    height: 80px;
+    background: #B4292E;
+    color: #fff;
+    padding-top: 30px;	
+    padding-left: 10px;
+    font-size: 20px;
+	position:absolute;
+	top:850px;
+	left:-250px;
+}
+
+#skateboards {
+	background-color: #fff;
+	padding:10px;
+	width:700px;
+	height:280px;
+	margin: 5px;
+}
+
+#skateboards img {
+	height: 230px;
+	width: 50px;
+	margin-left: 13px;
+	margin-top: 20px;
+
+}
+
+#footer {
+	
+	background-color: #fff;
+	width:700px;
+	height:200px;
+	display:flex;
+	margin-left: 5px;
+}	
+
+.column {
+	width: 50%;
+	margin: 2px 5px 2px;
+
+}
+
+input {
+	width:95%;
+	height:30px;
+
+}
+input.textarea {
+	height:90px;
+}
+
+.column > ul {
+	list-style: none;
+	display: flex;
+	margin-left: -40px;
+	font-size: 30px;
+}
+
+.column > h4, p {
+	color: gray;
+	font-family: sans-serif;
+}
+.column > p {
+	font-size:12px;
+}
+
+.button {
+	background-color: #B4292E;
+	height:40px;
+	width:250px;
+	position:relative;
+	color: #fff;
+
+}
