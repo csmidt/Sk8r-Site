@@ -10,7 +10,7 @@ html
 
 
 body {
-	margin-left: 300px;
+	margin-left: 350px;
 }
 
 header {
@@ -18,17 +18,26 @@ header {
 	height: 100px;
 	border: 5px solid #fff;
 }
-
+span {
+	color:#fff;
+	margin-left: 375px;
+}
+div.i {
+	font-size: 10px;
+}
 li {
 	list-style: none;
-	display: inline;
-	height:20px;
-	width:300px;
+	display: inline-flex;
+	height:30px;
+	width:24%;
 	background-color: #B4292E;
 	position: relative;
-	top: 40px;
+	top: 15px;
 	color: #fff;
 	border-bottom: 2px solid gray;
+	margin-right: 2px;
+	
+
 }
 
 
@@ -68,9 +77,7 @@ li {
 }
 
 h5 {
-	color: gray
-	;
-
+	color: #B5B5B5;
 }
 
 #skaters{
@@ -86,6 +93,8 @@ h5 {
   background:#000;
   border:1px solid #fff;
   color:#fff;
+  font-size: 20px;
+
   line-height:200px;
   width:225px;
   height:150px;
@@ -108,7 +117,6 @@ h5 {
 }
 
 
-
 .skater:nth-child(3) {
   background-image: url(assets/sk8er-1.png);
   background-size: cover;
@@ -128,6 +136,30 @@ h5 {
   margin-left: 5px;
 }
 
+#triangle_right {
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 40px solid #B4292E;
+    border-bottom: 40px solid transparent;
+    position: relative;
+    margin-left: -90px;
+    
+
+}
+#rectangle {
+    width: 180px;
+    height: 80px;
+    background: #B4292E;
+    margin-left: -270px;
+    margin-top: -80px;
+    color: #fff;
+    padding-top: 30px;	
+    padding-left: 10px;
+    font-size: 20px;
+
+
+}
 
 #skateboards {
 	background-color: #fff;
@@ -146,14 +178,21 @@ h5 {
 
 }
 
-footer {
+#footer {
 	
 	background-color: #fff;
 	width:700px;
 	height:200px;
 	border: 3px solid #fff;
-	margin: 5px;
+	margin: 10px 5px 30px;
+	
 }
 
+.contactus {
+	display: flex;
+	flex-direction: row;
+	
+	border:2px solid black; 
 
+}
 
