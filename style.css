@@ -97,7 +97,7 @@ header > ul {
 	background-color: #fff;
 	margin-left:8px;
 	word-wrap: normal;
-	font-size: 14px;
+	font-size: 10px;
 	padding-right: 7px;
 	padding-left: 7px;
 	padding-top: 5px;
@@ -111,7 +111,7 @@ header > ul {
 }
 
 h5 {
-	color: #B5B5B5;
+	color: #fff;
 }
 
 #skaters{
